@@ -1,0 +1,23 @@
+{
+    "user": "John",
+    "tasks": [
+        {
+            "id": "task123",
+            "title": "Finish project proposal",
+            "priority": "high",
+            "due_date": "2025-05-12"
+        },
+        {
+            "id": "task456",
+            "title": "Check emails",
+            "priority": "medium",
+            "due_date": "2025-05-12"
+        },
+        {
+            "id": "task457",
+            "title": "Work",
+            "priority": "low",
+            "due_date": "2025-05-12"
+        }
+    ]
+}
