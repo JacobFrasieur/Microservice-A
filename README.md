@@ -1,5 +1,5 @@
 <h1>Communication Contract</h1>
-A: Programmatically request Data:<br>
+<h2>Programmatically request Data:</h2><br>
       To request data, follow these steps<br>
       1. Import zmq. <br>
       2. Initialize it using zmq.Context()<br>
@@ -13,7 +13,7 @@ A: Programmatically request Data:<br>
           socket.connect("tcp://localhost:5555")
           socket.send_string("start")
 
-B: Programmatically recieve data<br>
+<h2>Programmatically recieve data</h2><br>
       To recieve data, follow the steps for requesting first, then follow these steps<br>
       1. Sleep, allowing the microservice to perform its work<br>
       2. Set a variable to the string the microservice will be sending, this should look like motivation = socket.recv_string()<br>
