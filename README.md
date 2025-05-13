@@ -22,4 +22,5 @@
             time.sleep(1)
             motiv = socket.recv_string()
 <h2>UML Diagram</h2>
-![UML](https://github.com/user-attachments/assets/6893fc98-d430-4931-8be9-7e25584a2c8f)
+
+![UML](https://github.com/user-attachments/assets/338c80c6-5f10-4cae-9fa2-1d4f6901f626)
