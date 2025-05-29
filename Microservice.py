@@ -35,7 +35,7 @@ def high_priority(received):
     else:
         return "Nothing to do today!"
 
-
+#Pick a random message to return
 def random_motivation(name, highest_priority):
         rand_int = random.randint(1, 10)
         match rand_int:
